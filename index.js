@@ -10,6 +10,10 @@ const password_db = new datastore("database/password.db")
 user_db.loadDatabase()
 password_db.loadDatabase()
 
+//Universal CSS
+app.use("/public/main.css",express.static(__dirname+"/public/main.css"))
+
+
 //URL entery point
 app.get("/",function(request,response){
     response.sendFile(__dirname+"/public/index.html")

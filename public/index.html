@@ -1,46 +1,21 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <title>Open Guard - Sign in</title>
-    <link rel='stylesheet' type='text/css' media='screen' href='/public/main.css'>
-    <!--<script src='main.js'></script>-->
-</head>
-<body>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>OpenGuard - Login</title>
+    <link rel="stylesheet" href="/public/main.css">
+  </head>
+  <body>
+
+<form class="box" action="index.html" method="post">
     <h1>OpenGuard</h1>
-    <h2>Sign In</h2>
-    <div id="login">
-        <form id="login_form">
-            <img src="/public/login.png" width="150px">
-          <div class="field_container">
-            <input type="text" placeholder="Email Address">
-          </div>
-          
-          <div class="field_container">
-            <input type="Password" placeholder="Password">
-            <button id="sign_in_button">
-              <span class="button_text">Sign In</span>
-            </button>
-          </div>
-          
-          <div id="sign_in_options" class="field_container">
-              <div id="sign_in_alternatives_container">
-                <span id="password_sign_in_option">or you can <a href="#" id="password_sign_in" class="login_link">sign in using a password</a></span>
-              </div>
-              <div id="remember_me_container">
-                <input name="user[remember_me]" type="hidden" value="0"><input id="user_remember_me" name="user[remember_me]" type="checkbox" value="1">
-                <label class="login_link" for="user_remember_me" id="remember_me_label">stay signed in</label>
-              </div>
-              <div class="clearfix"></div>
-            </div>
-      </form>
-        
-        <div id="dont_have_an_account">
-          <h2>
-            Need to <a href="#" class="login_link">sign up</a> for an account
-            or <a href="#" id="forgot_password_link" class="login_link">reset</a> your password?
-          </h2>
-        </div>
-      </div>
-</body>
+  <h3>Login</h3>
+  <input type="text" name="" placeholder="Username">
+  <input type="password" name="" placeholder="Password">
+  <input type="submit" name="" value="Login">
+  <a href="">Sign Up</a>
+</form>
+
+
+  </body>
 </html>

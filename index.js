@@ -11,7 +11,7 @@ user_db.loadDatabase()
 password_db.loadDatabase()
 
 //Universal CSS
-app.use("/public/main.css",express.static(__dirname+"/public/main.css"))
+app.use("/public",express.static(__dirname+"/public"))
 
 
 //URL entery point
